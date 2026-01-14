@@ -2,7 +2,6 @@
 # HW2
 ## Devlog
 
-brief description : I created some Objects, implement jump function of the player. Created Coin as Prefab, implement coin's action fo move to left constantly. Implement the function to generate coins randomly.
 
 
 ## Open-Source Assets
