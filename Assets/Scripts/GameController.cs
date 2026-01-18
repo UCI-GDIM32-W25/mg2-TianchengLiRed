@@ -24,7 +24,7 @@ public class GameController : MonoBehaviour
         
         while (true)
         {
-            float x = Random.Range(0.5f,1.0f);
+            float x = Random.Range(0.5f,2.0f);
             Instantiate(CoinPrefab, transform.position, transform.rotation);
             yield return new WaitForSeconds(x);
 

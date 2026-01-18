@@ -29,8 +29,8 @@ public class BirdController : MonoBehaviour
            }
         }
 
-        pointUI.UpdateText(_point);
         
+        pointUI.UpdateText(_point);
         
     }
     void OnCollisionEnter2D(Collision2D collision)
@@ -42,13 +42,14 @@ public class BirdController : MonoBehaviour
 
 
     }
-    void OCollisionEnter2D(Collision2D collision)
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
           _point++;
           Debug.Log(""+ _point);
+          Destroy(collision.gameObject);
         }
     }
-
 }

@@ -987,7 +987,7 @@ Transform:
   m_GameObject: {fileID: 2099968399}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.35, y: 14.51, z: 0}
+  m_LocalPosition: {x: 14.35, y: 15.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1005,7 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc64e0cbde87f45c08309025da67709c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoinPrefab: {fileID: 5406656260225699820, guid: ef88c0c42876d4560b3ac299a04c78aa, type: 3}
+  CoinPrefab: {fileID: 3688979732321897727, guid: 15e40b1c3ece14174a8fe5729c7d9a55, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

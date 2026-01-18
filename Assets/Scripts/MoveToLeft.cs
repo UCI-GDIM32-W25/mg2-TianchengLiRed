@@ -22,4 +22,5 @@ public class MoveToLeft : MonoBehaviour
         transform.Translate(Vector3.left * _speed * Time.deltaTime);
     }
     
+    
 }
